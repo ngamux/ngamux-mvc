@@ -18,8 +18,8 @@ Host: http://localhost:8080
 
 ## Get All Users
 ### Request
-Method: GET
-URL: /users
+* Method: GET
+* URL: /users
 
 ### Response
 Body:
@@ -31,13 +31,14 @@ Body:
       "password": "123123123"
     }
   ]
-}```
+}
+```
 
 ## Create User
 ### Request
-Method: GET
-URL: /users
-Query: ?email=my@email.com&password=123123123
+* Method: GET
+* URL: /users
+* Query: ?email=my@email.com&password=123123123
 
 ### Response
 Body:
@@ -47,4 +48,5 @@ Body:
     "email": "my@email.com",
     "password": "123123123"
   }
-}```
+}
+```
